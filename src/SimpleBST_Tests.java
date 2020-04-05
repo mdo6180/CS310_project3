@@ -72,7 +72,7 @@ public class SimpleBST_Tests {
 		actual.root = actualnode310;
   		
 		// Current tree:
-		//			  310
+		//  	      310
 		//           /   \
 		//        112     440
 		//                /  
@@ -98,11 +98,11 @@ public class SimpleBST_Tests {
 		actual.insert(465);
 		assertTrue(IsEqual(expected.root, actual.root));
 		
-		//		      310
+		//	      310
 		//           /   \
 		//        112     440
 		//                /  \
-		//         	   330    465
+		//             330    465
 		
 		
 		SimpleBST.Node<Integer> node112 = find(expected.root, 112);
@@ -110,11 +110,11 @@ public class SimpleBST_Tests {
 		actual.insert(211);
 		assertTrue(IsEqual(expected.root, actual.root));
 		
-		//		      310
+		//	      310
 		//           /   \
 		//        112     440
-		//           \    /  \
-		//         	211  330  465
+		//          \     /  \
+		//          211  330  465
 		
 		
 		SimpleBST.Node<Integer> node330 = find(expected.root, 330);
@@ -122,7 +122,7 @@ public class SimpleBST_Tests {
 		actual.insert(321);
 		assertTrue(IsEqual(expected.root, actual.root));
 		
-		//		  	  310
+		//     	      310
 		//           /   \
 		//        112     440
 		//          \     /  \
